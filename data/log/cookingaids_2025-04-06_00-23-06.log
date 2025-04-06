@@ -1,0 +1,16 @@
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.CookingAids main
+INFO: Starting CookingAids v2.0
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.ui.Ui showWelcomeMessage
+INFO: Showing welcome message
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.CookingAids main
+INFO: Application initialized successfully
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.ui.Ui waitForCommand
+INFO: Starting command input loop
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.storage.Storage loadData
+INFO: Starting data loading process
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.storage.Storage loadData
+FINE: Reading data file: ./data/cookingaids.json
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.storage.Storage loadData
+INFO: Successfully loaded 0 dishes, 0 recipes
+Apr 06, 2025 12:23:06 AM seedu.cookingaids.ui.Ui waitForCommand
+INFO: Data loaded successfully

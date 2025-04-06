@@ -1,0 +1,20 @@
+Apr 06, 2025 12:36:22 AM seedu.cookingaids.CookingAids main
+INFO: Starting CookingAids v2.0
+Apr 06, 2025 12:36:22 AM seedu.cookingaids.ui.Ui showWelcomeMessage
+INFO: Showing welcome message
+Apr 06, 2025 12:36:22 AM seedu.cookingaids.CookingAids main
+INFO: Application initialized successfully
+Apr 06, 2025 12:36:22 AM seedu.cookingaids.ui.Ui waitForCommand
+INFO: Starting command input loop
+Apr 06, 2025 12:36:22 AM seedu.cookingaids.storage.Storage loadData
+INFO: Starting data loading process
+Apr 06, 2025 12:36:23 AM seedu.cookingaids.storage.Storage loadData
+FINE: Reading data file: ./data/cookingaids.json
+Apr 06, 2025 12:36:23 AM seedu.cookingaids.storage.Storage loadData
+INFO: Successfully loaded 0 dishes, 0 recipes
+Apr 06, 2025 12:36:23 AM seedu.cookingaids.ui.Ui waitForCommand
+INFO: Data loaded successfully
+Apr 06, 2025 12:36:39 AM seedu.cookingaids.ui.Ui waitForCommand
+FINE: Processing command: add -dish=hi -when=2022/31/2
+Apr 06, 2025 12:36:54 AM seedu.cookingaids.ui.Ui waitForCommand
+SEVERE: Error in command processing: No line found
