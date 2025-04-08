@@ -89,8 +89,8 @@ I developed comprehensive JUnit tests to ensure the correctness and robustness o
 
 ### **Review / Mentoring Contributions**
 
-- Reviewed issues and pull requests, offering suggestions to teammates to fix bugs spotted:
-    - Brainstormed ideas to overcome challenges that teammates are facing in their implementation.
+  - Reviewed issues and pull requests, offering suggestions to teammates to fix bugs spotted:
+  - Brainstormed ideas to overcome challenges that teammates are facing in their implementation.
 
 #### Discussion with Teammate:
 ![Contribution_5](images/jeromy_other_contributions_5.png)
