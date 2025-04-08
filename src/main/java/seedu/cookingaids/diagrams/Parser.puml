@@ -4,20 +4,25 @@ hide circle
 skinparam classAttributeIconSize 0
 
 class Parser {
-    - NEW_INGREDIENTS_FLAG : String
-    - NEW_NAME_FLAG : String
-    - RECIPE_FLAG : String
-    + decipherCommand(receivedText: String)
-    + handleAddCommand(receivedText: String)
-    + handleDeleteCommand(receivedText: String)
-    + handleSearchCommand(receivedText: String)
-    + parseTagsForSearch(receivedText: String): String
-    + parseSearchType(receivedText: String): String
+    - static final String NEW_INGREDIENTS_FLAG
+    - static final String NEW_NAME_FLAG
+    - static final String RECIPE_FLAG
+    ...
+    --
+    + static decipherCommand(receivedText: String) : void
+    + static handleAddCommand(receivedText: String) : void
+    + static handleDeleteCommand(receivedText: String) : void
+    + static handleSearchCommand(receivedText: String) : void
+    + static parseTagsForSearch(receivedText: String) : String
+    + static parseSearchType(receivedText: String) : String
+    + static parseIngredientUpdate(command: String) : HashMap<String, String>
     ...
 }
 
 class ListCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + displayRecipeBank()
     + displayDishList(receivedText: String)
     + displayIngredients()
@@ -25,7 +30,9 @@ class ListCommand {
 }
 
 class AddCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + addDish(receivedText: String)
     + addRecipe(receivedText: String)
     + addIngredient(receivedText: String)
@@ -33,7 +40,9 @@ class AddCommand {
 }
 
 class DeleteCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + deleteDish(receivedText: String)
     + deleteIngredient(receivedText: String)
     + deleteRecipe(receivedText: String)
@@ -41,7 +50,9 @@ class DeleteCommand {
 }
 
 class UpdateCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + updateDish(receivedText: String)
     + updateRecipe(receivedText: String)
     + updateIngredient(receivedText: String)
@@ -49,7 +60,9 @@ class UpdateCommand {
 }
 
 class ViewCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + displayShoppingList()
     + displayDishMonth(month: int, year: int)
     + displayDishMonth(month: int)
@@ -57,19 +70,25 @@ class ViewCommand {
 }
 
 class HelpCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + showHelp()
     ...
 }
 
 class SuggestCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + printSuggestions()
     ...
 }
 
 class SearchCommand {
-    - COMMAND_WORD : String
+    - COMMAND_WORD: String
+    ...
+    --
     + printSearchResult(tags: String, searchType: String)
     ...
 }

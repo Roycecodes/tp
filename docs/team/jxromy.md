@@ -89,14 +89,15 @@ I developed comprehensive JUnit tests to ensure the correctness and robustness o
 
 ### **Review / Mentoring Contributions**
 
-- Reviewed issues and pull requests, offering suggestions to teammates to fix bugs spotted:
-    - Brainstormed ideas to overcome challenges that teammates are facing in their implementation.
-
-![Contribution_3](images/jeromy_other_contributions_3.png)
-![Contribution_4](images/jeromy_other_contributions_4.png)
+  - Reviewed issues and pull requests, offering suggestions to teammates to fix bugs spotted:
+  - Brainstormed ideas to overcome challenges that teammates are facing in their implementation.
 
 #### Discussion with Teammate:
 ![Contribution_5](images/jeromy_other_contributions_5.png)
+#### Implementation:
+![Contribution_3](images/jeromy_other_contributions_3.png)
+![Contribution_4](images/jeromy_other_contributions_4.png)
+
 
   - Improved code modularity and adherence to CS2113 code quality guidelines by providing tips to teammates for following our course coding standards in their code and documentation.
   - Simplified conditional logic in command execution by refactoring nested `if` statements into guard clauses
