@@ -86,7 +86,7 @@ Given below are my contributions to the project.
 ### **Calendar Printer**
 - **What it does**: Prints the entire meal calendar in a structured format.
 - **Justification**: Useful for users who prefer a visual overview of their cooking schedule.
-- **Highlights**: Designed to display any month of year within a range. Adjusted to calculate leap years.
+- **Highlights**: Designed to display any month of year within a range. Adjusted to calculate leap years. Challenging feature because I wanted to do it without external libraries
 - **Credits**: Inspired by terminal-based calendar printouts but implemented without third-party libraries to reduce dependencies.
 ![viewMonth.png](../images/view_month.png)
 
